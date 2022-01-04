@@ -1,5 +1,6 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/

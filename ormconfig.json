@@ -1,0 +1,18 @@
+{
+  "type": "postgres",
+  "host": "168.63.248.120",
+  "port": 5432,
+  "username": "postgres",
+  "password": "Kraosoft@min@1",
+  "database": "ICEFAC_DB_DEV",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["api/entity/**/*.ts"],
+  "migrations": ["api/migration/**/*.ts"],
+  "subscribers": ["api/subscriber/**/*.ts"],
+  "cli": {
+    "entitiesDir": "api/entity",
+    "migrationsDir": "api/migration",
+    "subscribersDir": "api/subscriber"
+  }
+}

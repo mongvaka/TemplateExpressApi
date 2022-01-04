@@ -1,0 +1,12 @@
+import * as express from "express";
+const router = express.Router();
+import controller from "../../controller/access_controller";
+router.post("/getAccessTableList", controller.getAccessTableList);
+router.post("/getAccessTableById", controller.getAccessTableById);
+router.post("/createAccessTable", controller.createAccessTable);
+router.post("/editAccessTable", controller.editAccessTable);
+router.post("/deleteAccessTable", controller.deleteAccessTable);
+router.post("/GetSubscribeTransDropdown", controller.getSubscribeTransDropdown);
+router.post("/getRoleDropdown", controller.getRoleDropdown);
+export default router;
+//export default router;
