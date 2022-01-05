@@ -1,5 +1,3 @@
-import { Uuid } from "./../../../app-icefac/src/app/shared/functions/value.function";
-
 export class BaseCompanyView {
   public create_by: string;
   public create_date: string;

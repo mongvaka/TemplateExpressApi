@@ -2,7 +2,6 @@
 // import fs from "fs";
 //import readXlsxFile from "read-excel-file/node";
 // import e from "express";
-import countryService from "../api/services/country_service";
 // const { createAddressTable } from "../api/services/address_service";
 let addTambon = 0;
 let addProvince = 0;
